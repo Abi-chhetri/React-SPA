@@ -58,7 +58,7 @@ const SliderComp=()=>{
       <Slider {...settings}>
         {data.map((e, index) => (
           <div className="relative" key={index}>
-            <img className="w-full h-175 object-cover object-center" src={e.img} alt={e.title} />
+            <img className="w-full h-170 object-cover object-center" src={e.img} alt={e.title} />
             <div className="absolute inset-0 flex justify-center items-center z-10 text-white text-6xl bg-black/40">
               <h1 className='slider-text'>{e.title}</h1>
             </div>
