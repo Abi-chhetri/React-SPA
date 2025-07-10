@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+nav{
+    box-shadow:1px 2px 10px 2px rgb(50, 50, 50);
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f5f9fd;
+}
+
+.slider-text{
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 2px rgb(0, 1, 81);
+}
+
+.team{
+    overflow: hidden;
+    border-radius: 20px;
+    background: gainsboro;
+    box-shadow: 2px 1px 10px 2px rgb(0, 0, 88);
+    transition: all .5s ease-in-out;
+
+    &:hover{
+        transform: translate(0%,-2%);
+    }
+}
+
+form input{
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    border: 2px solid rgb(50, 50, 217);
+    height: 50px;
+    width: 250px;
+}
+
+form input::placeholder{
+    font-weight: bold;
+}
+
+.text{
+    color: rgb(97, 92, 92);
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#movie{
+    color: white;
+    border: 1px solid white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 10px;
+    width: 15rem;
+}
+
+.anchor{
+    border: 2px solid white;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: max-content;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        background-color: #fff;
+        color: black;
+    }
+}
