@@ -68,7 +68,7 @@ comp-proj/
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-username/comp-proj.git
+   git clone https://github.com/Abi-chhetri/comp-proj.git
    cd comp-proj
    ```
 
